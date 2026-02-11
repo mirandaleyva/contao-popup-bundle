@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2">
+  <file source-language="en" target-language="de" datatype="plaintext">
+    <body>
+
+      <trans-unit id="tl_module.ml_popup_article.0">
+        <source>Article</source>
+        <target>Artikel-Inhalt</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ml_popup_article.1">
+        <source>Choose the article to display in the popup.</source>
+        <target>Wähle den Artikel, der im Popup angezeigt werden soll (inkl. Bilder/Links).</target>
+      </trans-unit>
+
+      <trans-unit id="tl_module.ml_popup_delay.0">
+        <source>Delay (sec.)</source>
+        <target>Delay (Sek.)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ml_popup_delay.1">
+        <source>Delay before the popup appears.</source>
+        <target>Zeitverzögerung bis das Popup erscheint. 0 = sofort.</target>
+      </trans-unit>
+
+      <trans-unit id="tl_module.ml_popup_cookie_name.0">
+        <source>Cookie name</source>
+        <target>Cookie-Name</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ml_popup_cookie_name.1">
+        <source>Cookie that is set after closing.</source>
+        <target>Cookie wird nach dem Schließen gesetzt (verhindert erneute Anzeige).</target>
+      </trans-unit>
+
+      <trans-unit id="tl_module.ml_popup_cookie_days.0">
+        <source>Cookie lifetime (days)</source>
+        <target>Cookie-Laufzeit (Tage)</target>
+      </trans-unit>
+      <trans-unit id="tl_module.ml_popup_cookie_days.1">
+        <source>How many days the popup should stay hidden.</source>
+        <target>Wie viele Tage das Popup nach dem Schließen nicht mehr angezeigt wird.</target>
+      </trans-unit>
+
+    </body>
+  </file>
+</xliff>
