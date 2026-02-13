@@ -6,13 +6,13 @@ namespace MirandaLeyva\ContaoPopupBundle\Controller;
 
 use Contao\CoreBundle\Controller\FrontendModule\AbstractFrontendModuleController;
 use Contao\CoreBundle\InsertTag\InsertTagParser;
-use Contao\CoreBundle\ServiceAnnotation\FrontendModule;
+use Contao\CoreBundle\DependencyInjection\Attribute\AsFrontendModule;
 use Contao\ModuleModel;
 use Contao\Template;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-#[FrontendModule(
+#[AsFrontendModule(
     category: 'miscellaneous',
     type: 'ml_popup',
     template: 'mod_popup'
