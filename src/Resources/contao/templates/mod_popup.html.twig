@@ -1,0 +1,20 @@
+<dialog class="ml-popup"
+        data-ml-popup
+        data-delay="{{ delaySeconds }}"
+        data-cookie="{{ cookieName }}"
+        data-cookie-days="{{ cookieDays }}"
+        aria-label="Popup">
+
+  <div class="ml-popup__inner" role="document">
+    <button type="button"
+            class="ml-popup__close"
+            data-ml-popup-close
+            aria-label="Schliessen">
+      ×
+    </button>
+
+    <div class="ml-popup__content">
+      {{ contentHtml|raw }}
+    </div>
+  </div>
+</dialog>

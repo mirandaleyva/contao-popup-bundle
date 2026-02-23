@@ -1,0 +1,55 @@
+.ml-popup {
+  border: 0;
+  padding: 0;
+  width: min(900px, 92vw);
+  max-height: 86vh;
+  border-radius: 14px;
+  overflow: visible;
+}
+
+.ml-popup::backdrop {
+  background: rgba(0, 0, 0, 0.65);
+}
+
+.ml-popup__inner {
+  position: relative;
+  padding: 22px 22px 18px;
+  max-height: 86vh;
+  overflow: auto;
+}
+
+.ml-popup__close {
+  position: absolute;
+  top: 10px;
+  right: 12px;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  font-size: 26px;
+  line-height: 40px;
+}
+
+.ml-popup__close:hover {
+  background: rgba(0, 0, 0, 0.12);
+}
+
+.ml-popup__content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.ml-popup__content a {
+  text-decoration: underline;
+}
+
+/* Fallback für Browser ohne echtes <dialog> */
+.ml-popup[open].is-open {
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  z-index: 9999;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+}
